@@ -1,0 +1,4 @@
+Dodawanie: 1040
+Odejmowanie: 1008
+Mnożenie: 16384
+Dzielenie: 64

@@ -1,8 +1,8 @@
-const argv = require('yargs');
+const yargs = require('yargs');
 const getUser = require('./user');
 const getWeather = require('./weather');
 
-const userId = argv.id;
+const userId = yargs.argv.id;
 // console.log(userId);
 
 getUser(userId, (user) => {

@@ -17,7 +17,7 @@ function getWeather(user) {
                 console.log("weather not found");
             } else {
                 const weatherData = JSON.parse(body);
-                console.log("weather is:", weatherData.weather[0], description);
+                console.log("weather is:", weatherData.weather[0].description);
             }
         }
     });
